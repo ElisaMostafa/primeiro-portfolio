@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    color: #808080;
+    line-height: 1.6;
+}
+
+header nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #008812 1px solid;
+    padding-right: 100px;
+    
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+header nav p {
+    color: #fff;
+    font-size: large;
+    font-family: 'Arial Black';
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 100px;
+    
+    
+}
+
+header nav p:hover {
+    color: #008812;
+    transition: 0.2s linear;
+}
+
+header nav a:hover {
+    color: #008812;
+    transition: 0.2s linear;
+}
+
+.primeira-secao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: #000000 0px 4px 10px -1px, #000000 0px 2px 10px -1px;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 150px;
+}
+
+.div-img-perfil{
+    width: 50%;
+    max-width: 100%;
+}
+
+.div-intro-perfil{
+    width: 50%;
+    max-width: 100%;
+}
+
+.div-intro-perfil h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #008812;
+    
+}
+
+.div-intro-perfil p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+
+.div-img-perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border : 3px solid #008812;
+}
+
+.segunda-secao {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.div-habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: #000000 0px 4px 10px -1px, #000000 0px 2px 10px -1px;
+    margin-top: 20px;
+}
+.div-habilidades h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: #008812 0.5px solid;
+    max-width: 100%;
+    
+}
+.div-habilidades ul {
+    text-align: left;
+    
+}
+
+.div-tecnologias {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-tecnologias img {
+    max-width: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    
+}
+
+.div-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: #000000 0px 4px 10px -1px, #000000 0px 2px 10px -1px;
+    margin-top: 10px;
+}
+
+.div-sobre h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    border-bottom: #008812 0.5px solid;
+    max-width: 100%;
+    text-align: center;
+}
+
+.div-sobre p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 50px;
+}
+
+
+.div-projetos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: #000000 0px 4px 10px -1px, #000000 0px 2px 10px -1px;
+    margin-top: 20px;
+}
+
+.div-projetos h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    border-bottom: #008812 0.5px solid;
+    max-width: 100%;
+    text-align: center;
+}
+
+.div-projetos a {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-cards-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.div-card-projeto {
+    height: 250px;
+    width: 300px;
+    text-decoration: none;
+    background-color: #222222;
+    border: 1px solid #008812;
+    border-radius: 5px;
+    margin: 10px;
+    
+    box-shadow: #000000 0px 4px 10px -1px, #000000 0px 2px 10px -1px;
+}
+
+.div-card-projeto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.terceira-secao {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.div-contato {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: #000000 0px 4px 10px -1px, #000000 0px 2px 10px -1px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.div-contato h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    border-bottom: #008812 0.5px solid;
+    max-width: 100%;
+    text-align: center;
+}
+
+.div-icon-contatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 100%;
+}
+
+
+
+.div-icon-contatos img {
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #808080;
+    margin-top: 20px;
+}
+
+
+/* Responsividade */
+@media (max-width: 815px) { 
+    .primeira-secao {
+        padding-top: 300px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div-img-perfil, .div-intro-perfil {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .div-intro-perfil h1 {
+        font-size: 36px;
+    }
+
+    .div-intro-perfil p {
+        font-size: 18px;
+    }
+
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    header nav a, header nav p {
+        margin: 10px 0;
+    }
+
+    .div-habilidades, .div-sobre, .div-projetos, .div-contato {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .div-card-projeto {
+        width: 100%;
+        max-width: 300px;
+    }
+
+   
+
+    .div-icon-contatos img {
+        
+        flex-direction: row;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .div-intro-perfil h1 {
+        font-size: 28px;
+    }
+
+    .div-intro-perfil p {
+        font-size: 16px;
+    }
+
+    .div-card-projeto {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .div-img-perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+
+
+
+
+
